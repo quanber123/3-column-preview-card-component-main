@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply bg-very-light-gray;
+    }
+    .container{
+        @apply w-11/12;
+        @apply h-4/5;
+        @apply my-14;
+        @apply mx-auto;
+    }
+    .fathers{
+        @apply w-11/12;
+        @apply h-full;
+        @apply m-auto;
+    }
+    .childs{
+        @apply w-4/5;
+        @apply m-auto;
+    }
+    img{
+        @apply my-8;
+    }
+    h1{
+        @apply font-sans;
+        @apply font-thin;
+        @apply my-5;
+        @apply text-3xl;
+        @apply uppercase;
+        @apply text-very-light-gray;
+    }
+
+    p{
+        @apply font-serif;
+        @apply font-medium;
+        @apply my-5;
+        @apply text-very-light-gray;
+    }
+
+    button[type="button"]{
+        @apply font-serif;
+        @apply font-medium;
+        @apply text-center;
+        @apply mb-10;
+        @apply py-1.5;
+        @apply px-5;
+        @apply bg-white;
+        @apply rounded-full;
+        @apply border-2;
+        @apply hover:bg-[transparent] hover:text-very-light-gray hover:border-2 hover:border-solid hover:border-very-light-gray;
+    }
+}
